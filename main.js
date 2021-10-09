@@ -6,6 +6,7 @@ Webcam.set({
 });
 
 camera = document.getElementById("live");
+
 Webcam.attach(camera);
 
 function snapshot(){
